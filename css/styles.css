@@ -148,7 +148,7 @@ a {
 }
 
 /*---------------- Hero ----------------*/
-.hero {
+.hero.section {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-color-footer);
@@ -291,15 +291,13 @@ a {
 }
 
 /*------------------ Footer ---------------*/
-.page-footer {
-  background-color: var(--background-color-footer);
-}
 .footer {
   display: flex;
   flex-direction: column;
   margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--background-color-footer);
 }
 .logo-footer-box {
   margin-bottom: 20px;
@@ -323,7 +321,7 @@ a {
 .footer-contacts .item:not(:last-child) {
   margin-bottom: 9px;
 }
-.contacts .address {
+.contacts.address {
   color: var(--secondary-text-color);
 }
 .contacts {
